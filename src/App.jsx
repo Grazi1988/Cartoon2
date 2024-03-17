@@ -1,0 +1,29 @@
+import React from "react";
+import Header from "./components/Header/Header"
+import Main from "./components/Main/Main"
+import Footer from "./components/Footer/Footer"
+
+import { createGlobalStyle } from "styled-components"
+
+const GlobalStyle = createGlobalStyle`
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        cursor: url('data:image/x-icon;base64,AAACAAEAICAQAA8ADwDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAU5+YAAAAAANPY2wB5bmoAmZ+oAP///wBUTEkAQDg2AO3j3QDo39oA2dHMANnZ2QBkY8kAAAAAAAAAAAAAAAAAEREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREREiIiUiJSIlJREREREREREYmCIiUiJSJSiRERERERERGIlSIlIiUiUriREREREzMYiYVVJVVVIlIlgRERETMzOIk0RVUzVVVSJVUREREzd3EzNERTMRERVVUiVREREzM3MzQ0czEREREVUiJRERETM3MzNzMRERERERVSJRERETMzMzczERERERERFVURERETMzMzMRERERERERERERERERMzMxERERERERERERERERERY2EREREREREREREREREREzMzERERERERERERERETYzMzijMRERERERERERERETMzM4iDYxERERERERERERETMzM3gzEREREREREREREREzMwAwMREREREREREREREczDMAMBERERERERERERERzMMzN3MREREREREREREREczMN3M3EREREREREREREREcwzMzMRERERERERERERERHDEzMTERERERERERERERERwxERExERERERERERERERETERERExERERERERERERERERERERERERERERERERERERERERERERERERERERERH////////////////////////////////+AAH//AAA//wAAH+IAAB/AAAAPwQB8A+AAf4H4AP/g/AD/+P4B////g////8f///+D///4AP///AA///4Af//+AP///AH///gB///4Af///AP///yL///8+////f3/////////////w=='), auto;
+    }
+`
+
+function App() {
+    return (
+        <>
+            <GlobalStyle />
+            <Header />
+            <Main />
+            <Footer />
+        </>
+    )
+}
+export default App
