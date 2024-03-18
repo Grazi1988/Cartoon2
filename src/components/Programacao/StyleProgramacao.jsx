@@ -28,18 +28,20 @@ export const Section2 = styled.section`
 
 `
 export const CardManha = styled.div` 
-    width: 40%;
+    width: 50%;
     height: 10vh;
     border: solid darkcyan;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0.5rem;
+    background-image: linear-gradient(to right, #5900ff,orange,yellow,green,blue,indigo,violet);
+
 
     &:hover{
     background-color: white;
     font-size: 1.2rem;
-    color: blue;
+    color: white;
     font-weight: 800;
     transform: rotate(5deg);
     }
